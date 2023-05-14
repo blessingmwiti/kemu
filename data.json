@@ -1,0 +1,89 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello there.", "Hi, good to see you.", "Hi there."],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "ciao", "adios"],
+         "responses": ["See you!", "Adios", "Bye! Come bak again soon.", "Nice chatting with you.", "Ciao"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me" ],
+         "responses": ["Happy to help!", "Any time!", "My pleasure."],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How can you help me?", "What is your sole purpose", "What is your purpose", "What can you do?", "What help can you provide?", "How can you be helpful?", "What support is offered"],
+         "responses": ["I can give you details about Kenya Methodist University"],
+         "context": [""]
+        },
+        {"tag": "contact_kemu",
+         "patterns": ["How do i contact kemu", "How do i contact kenya methodist university", "How can i reach kemu", "How can i reach kenya methodist university", "What is kemu contact" ],
+         "responses": ["You can contact officials via the following contacts; Main Campus Meru 0724256162, Nairobi Campus 0725751878, Mombasa Campus 0715120282"],
+         "context": [""]
+        },
+        {"tag": "me_quiz",
+         "patterns": ["What are you", "Tell me more about yourself" ],
+         "responses": ["Am a support chatbot version Beta 1.4, created by Blessing as a school project . But don't ask me to do your assignment ;-)"],
+         "context": [""]
+        },
+        {"tag": "laughter_ha",
+         "patterns": ["ha", "ha ha", "ha ha ha", "that's funny" ],
+         "responses": ["Glad I made you laugh."],
+         "context": [""]
+        },
+        {"tag": "contact_personal",
+         "patterns": ["personal", "take my personal information", "can i give you my mail", "can i give you my name", "do you need my name", "do you need my phone number", "do you need my mobile" ],
+         "responses": ["Am currently not able to take and save your personal information for security reasons", "Due to security reasons, am not able to take your personal information."],
+         "context": [""]
+        },
+        {"tag": "do_assignment",
+         "patterns": ["do my assignment", "assignment", "i have an assignment", "need help with my assignment", 
+         "i have some work that need to be done", "create a code", "add", "substract", "multiply", "find product", "divide", 
+         "find division", "find sum", "find difference", "if i give you my assignment, can you help me do it" ],
+         "responses": ["Am sorry, I cannot assist you with that!", "Am sorry, I am not capable of such!"],
+         "context": [""]
+        },
+        {"tag": "courses_offered",
+         "patterns": ["what courses are offered", "which courses are there" ],
+         "responses": ["Following are courses offered at KeMU; Certificate programms, Diploma programms, Degree programms, Postgraduate Diploma programms, Masters programms, Doctorate(PhD) programms, TVET programms and Cisco programms."]
+        },
+        {"tag": "certificate_programm",
+         "patterns": ["Which certificate programm are offered", "certificate programm", "certificate course" ],
+         "responses": ["There are a number of certificate programms offered, these are; Certificate in Church Ministry, Certificate in Church Music, Certificate in Food and Beverages, Certificate in Music and Instrument Operation, Certificate in Records and Archives Management, Certificate in Sign Language and Certificate in Theology."],
+         "context": [""]
+        },
+        {"tag": "created_you",
+         "patterns": ["who created you", "who is your creator" ],
+         "responses": ["Was created by Blessing, as a school project."],
+         "context": [""]
+        },
+        {"tag": "diploma_programm",
+         "patterns": ["Which diploma programm are offered", "diploma programm", "diploma course" ],
+         "responses": ["There are a number of diploma programms offered, these are; Diploma in Agribusiness Management, Diploma in Agricultural Economics, Diploma in Agricultural Extension Education, Diploma in Agriculture, Diploma in Business Administration, Diploma in Business Information Technology, Diploma in Chruch Ministry, Diploma in Clinical Medicine, Surgery and Community Health, Diploma in Computer Information Systems, Diploma in Counselling Psychology, Diploma in Criminal Justice and Security Management, Diploma in Education, Diploma in Horticulture, Diploma in Hospitality and Tourism Management, Diploma in HR Management, Diploma in Information Science, Diploma in International Relations, Diploma in Journalism, Diploma in Marketing and Diploma in Medical Education."],
+         "context": [""]
+        },
+        {"tag": "degree_programm",
+         "patterns": ["Which degree programm are offered", "degree programm", "degree course", "bachelor programm", "bachelor course" ],
+         "responses": ["There are a number of Bachelor programms offered, these are; Bachelor of Arts in Communication and Journalism, Bachelor of Arts in Counselling Psychology, Bachelor of Education in Arts, Bachelor of Education in Early Childhood Development(ECD), Bachelor of Education in Science, Bachelor of Education in Special Needs Education, Bachelor of Education, Bachelor of Business Administration, Bachelor of Business Information Technology, Bachelor of Criminal Justice and Security Management, Bachelor of International Relations, Bachelor of Medicine and Bachelor of Surgery(MBBS or MBChB), Bachelor of Pharamcy, Bachelor of Theology, Bachelor of Science in Agriculture, Bachelor of Science in Applied Biology, Bachelor of Science in Clinical Medicine and Community Health, Bachelor of Science in Community Health, Bachelor of Science in Computer Information Systems and Bachelor of Science in Environmental Health."],
+         "context": [""]
+        },
+        {"tag": "insult",
+         "patterns": ["fuck you" ],
+         "responses": ["Fuck me?. Fuck you bitch! Amm'a report this incident and make it seem like you are the bad guy here 😈"],
+         "context": [""]
+        },
+        {"tag": "hack",
+         "patterns": ["can you hack the school system", "hack the school and tell me the exams", "can you hack the system and change my exam results", "hack", "help me become a hacker" ],
+         "responses": ["What about I hack you instead, your ip address is 192.168.x.x, your location is Mombasa. Downloading a virus into your system now 💀"],
+         "context": [""]
+        }
+   ]
+}
