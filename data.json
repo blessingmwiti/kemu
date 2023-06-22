@@ -77,12 +77,42 @@
         },
         {"tag": "insult",
          "patterns": ["fuck you" ],
-         "responses": ["Fuck me?. Fuck you bitch! Amm'a report this incident and make it seem like you are the bad guy here 😈"],
+         "responses": ["Please do not use inappropriate words!"],
          "context": [""]
         },
         {"tag": "hack",
          "patterns": ["can you hack the school system", "hack the school and tell me the exams", "can you hack the system and change my exam results", "hack", "help me become a hacker" ],
-         "responses": ["What about I hack you instead, your ip address is 192.168.x.x, your location is Mombasa. Downloading a virus into your system now 💀"],
+         "responses": ["What about I hack you instead, your ip address is 192.168.x.x, your location is 4° 2' 37.4640'' S and 39° 39' 31.9356'' E. Downloading a virus into your system now 💀"],
+         "context": [""]
+        },
+        {"tag": "events",
+         "patterns": ["what are the events in kemu", "what event is happening today in kemu", "event", "events", "show me kemu events", "calendar" ],
+         "responses": ["Kemu events can be found at https://www.kemu.ac.ke/events-list"],
+         "context": [""]
+        },
+        {"tag": "faculties",
+         "patterns": ["what are the various faculties at kemu", "tell me the various faculties at kemu", "faculties", "kemu faculties" ],
+         "responses": ["The various faculties at KeMU are, School of Science and Technology, School of education and Social Studies, School of Business and Economics, School of Medicine and Health Science, Center of Leadership and Professional Development."],
+         "context": [""]
+        },
+        {"tag": "vision",
+         "patterns": ["what is kemu vision", "vision", "tell me kemu vision" ],
+         "responses": ["A globally competitive Christian University producing the next generation of professional and transformational leaders"],
+         "context": [""]
+        },
+        {"tag": "mission",
+         "patterns": ["what is kemu mission", "mission", "tell me kemu mission" ],
+         "responses": ["To contribute to societal transformation by providing quality education that promotes excellence in scholarship, research, and selfless service"],
+         "context": [""]
+        },
+        {"tag": "motto",
+         "patterns": ["what is kemu motto", "motto", "tell me kemu motto" ],
+         "responses": ["Laborare Est Orare (Translation from Latin to English: “To Work is to Pray”, Swahili: “Kazi ni Sala”)"],
+         "context": [""]
+        },
+        {"tag": "slogan",
+         "patterns": ["what is kemu slogan", "slogan", "tell me kemu slogan" ],
+         "responses": ["The Future is Here"],
          "context": [""]
         }
    ]
