@@ -56,7 +56,7 @@
          "responses": ["Following are courses offered at KeMU; Certificate programms, Diploma programms, Degree programms, Postgraduate Diploma programms, Masters programms, Doctorate(PhD) programms, TVET programms and Cisco programms."]
         },
         {"tag": "certificate_programm",
-         "patterns": ["Which certificate programm are offered", "certificate programm", "certificate course" ],
+         "patterns": ["Which certificate programm are offered", "certificate programm", "certificate course", "tell me more about certificate programms" ],
          "responses": ["There are a number of certificate programms offered, these are; Certificate in Church Ministry, Certificate in Church Music, Certificate in Food and Beverages, Certificate in Music and Instrument Operation, Certificate in Records and Archives Management, Certificate in Sign Language and Certificate in Theology."],
          "context": [""]
         },
@@ -66,18 +66,28 @@
          "context": [""]
         },
         {"tag": "diploma_programm",
-         "patterns": ["Which diploma programm are offered", "diploma programm", "diploma course" ],
+         "patterns": ["Which diploma programm are offered", "diploma programm", "diploma course", "tell me more about diploma programms" ],
          "responses": ["There are a number of diploma programms offered, these are; Diploma in Agribusiness Management, Diploma in Agricultural Economics, Diploma in Agricultural Extension Education, Diploma in Agriculture, Diploma in Business Administration, Diploma in Business Information Technology, Diploma in Chruch Ministry, Diploma in Clinical Medicine, Surgery and Community Health, Diploma in Computer Information Systems, Diploma in Counselling Psychology, Diploma in Criminal Justice and Security Management, Diploma in Education, Diploma in Horticulture, Diploma in Hospitality and Tourism Management, Diploma in HR Management, Diploma in Information Science, Diploma in International Relations, Diploma in Journalism, Diploma in Marketing and Diploma in Medical Education."],
          "context": [""]
         },
         {"tag": "degree_programm",
-         "patterns": ["Which degree programm are offered", "degree programm", "degree course", "bachelor programm", "bachelor course" ],
+         "patterns": ["Which degree programm are offered", "degree programm", "degree course", "bachelor programm", "bachelor course", "tell me more about degree programms" ],
          "responses": ["There are a number of Bachelor programms offered, these are; Bachelor of Arts in Communication and Journalism, Bachelor of Arts in Counselling Psychology, Bachelor of Education in Arts, Bachelor of Education in Early Childhood Development(ECD), Bachelor of Education in Science, Bachelor of Education in Special Needs Education, Bachelor of Education, Bachelor of Business Administration, Bachelor of Business Information Technology, Bachelor of Criminal Justice and Security Management, Bachelor of International Relations, Bachelor of Medicine and Bachelor of Surgery(MBBS or MBChB), Bachelor of Pharamcy, Bachelor of Theology, Bachelor of Science in Agriculture, Bachelor of Science in Applied Biology, Bachelor of Science in Clinical Medicine and Community Health, Bachelor of Science in Community Health, Bachelor of Science in Computer Information Systems and Bachelor of Science in Environmental Health."],
          "context": [""]
         },
         {"tag": "insult",
          "patterns": ["fuck you" ],
          "responses": ["Please do not use inappropriate words!"],
+         "context": [""]
+        },
+        {"tag": "okay",
+         "patterns": ["okay" ],
+         "responses": ["Okay!", "👍"],
+         "context": [""]
+        },
+        {"tag": "vc",
+         "patterns": ["who is kemu vice chancellor", "vice chancellor" ],
+         "responses": ["Prof. David Gichoya is the Vice Chancellor, more information about him can be found here, https://www.kemu.ac.ke/personnel/prof-david-gichoya-ph-d"],
          "context": [""]
         },
         {"tag": "hack",
